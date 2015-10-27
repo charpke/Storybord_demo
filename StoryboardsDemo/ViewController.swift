@@ -19,6 +19,31 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if segue.identifier == "allansSegue" {
+        
+            let destinationViewController: AllansViewController = segue.destinationViewController as! AllansViewController
+                destinationViewController.incomingMessage = "Data Received for Allan's View Controller"
+        
+        }else {
+        
+            let destinationViewController: MikeViewController = segue.destinationViewController as! MikeViewController
+            destinationViewController.incomingMessage = "Data Recieved for Mike's View Controller"
+        
+        }
+        
+        
+        
+        
+        
+        
+    }
+    
+    
 
 
 }

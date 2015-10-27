@@ -14,6 +14,9 @@
 		CBB194F51BDF0137003427DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB194F31BDF0137003427DC /* LaunchScreen.storyboard */; };
 		CBB195001BDF0138003427DC /* StoryboardsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB194FF1BDF0138003427DC /* StoryboardsDemoTests.swift */; };
 		CBB1950B1BDF0138003427DC /* StoryboardsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB1950A1BDF0138003427DC /* StoryboardsDemoUITests.swift */; };
+		CBB195191BDF0AC1003427DC /* AllansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB195181BDF0AC1003427DC /* AllansViewController.swift */; };
+		CBF5BFE71BDFB91E00EF5972 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF5BFE51BDFB91E00EF5972 /* Search.storyboard */; };
+		CBF5BFE91BDFC01B00EF5972 /* MikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF5BFE81BDFC01B00EF5972 /* MikeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		CBB195061BDF0138003427DC /* StoryboardsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB1950A1BDF0138003427DC /* StoryboardsDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardsDemoUITests.swift; sourceTree = "<group>"; };
 		CBB1950C1BDF0138003427DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB195181BDF0AC1003427DC /* AllansViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllansViewController.swift; sourceTree = "<group>"; };
+		CBF5BFE61BDFB91E00EF5972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Search.storyboard; sourceTree = "<group>"; };
+		CBF5BFE81BDFC01B00EF5972 /* MikeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MikeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 				CBB194EA1BDF0137003427DC /* AppDelegate.swift */,
 				CBB194EC1BDF0137003427DC /* ViewController.swift */,
 				CBB194EE1BDF0137003427DC /* Main.storyboard */,
+				CBF5BFE51BDFB91E00EF5972 /* Search.storyboard */,
 				CBB194F11BDF0137003427DC /* Assets.xcassets */,
 				CBB194F31BDF0137003427DC /* LaunchScreen.storyboard */,
 				CBB194F61BDF0137003427DC /* Info.plist */,
+				CBB195181BDF0AC1003427DC /* AllansViewController.swift */,
+				CBF5BFE81BDFC01B00EF5972 /* MikeViewController.swift */,
 			);
 			path = StoryboardsDemo;
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			files = (
 				CBB194F51BDF0137003427DC /* LaunchScreen.storyboard in Resources */,
 				CBB194F21BDF0137003427DC /* Assets.xcassets in Resources */,
+				CBF5BFE71BDFB91E00EF5972 /* Search.storyboard in Resources */,
 				CBB194F01BDF0137003427DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF5BFE91BDFC01B00EF5972 /* MikeViewController.swift in Sources */,
 				CBB194ED1BDF0137003427DC /* ViewController.swift in Sources */,
 				CBB194EB1BDF0137003427DC /* AppDelegate.swift in Sources */,
+				CBB195191BDF0AC1003427DC /* AllansViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +319,14 @@
 				CBB194F41BDF0137003427DC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CBF5BFE51BDFB91E00EF5972 /* Search.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBF5BFE61BDFB91E00EF5972 /* Base */,
+			);
+			name = Search.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -482,6 +502,7 @@
 				CBB195111BDF0138003427DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBB195121BDF0138003427DC /* Build configuration list for PBXNativeTarget "StoryboardsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +511,7 @@
 				CBB195141BDF0138003427DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBB195151BDF0138003427DC /* Build configuration list for PBXNativeTarget "StoryboardsDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +520,7 @@
 				CBB195171BDF0138003427DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
